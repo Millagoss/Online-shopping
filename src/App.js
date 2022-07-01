@@ -1,7 +1,8 @@
 import React from 'react';
-
+import CategoriesContainerComponent from './components/CategoryList/CategoriesContainerComponent';
+import categoriesInfo from './data/data';
 const App = () => {
-  return <div>Hello world</div>;
+  return <CategoriesContainerComponent categoriesInfo={categoriesInfo} />;
 };
 
 export default App;
